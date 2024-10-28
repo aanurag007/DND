@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DND To-Do</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="board">
+      <div class="column" id="todo">
+        <h2>To Do</h2>
+        <div class="task" draggable="true" id="task1">revision</div>
+        <div class="task" draggable="true" id="task2">DSA</div>
+        <div class="task" draggable="true" id="task3">MERN</div>
+        <div class="task" draggable="true" id="task4">MONGODB</div>
+      </div>
+
+      <div class="column" id="in-progress">
+        <h2>In Progress</h2>
+      </div>
+      <div class="column" id="review">
+        <h2>Review</h2>
+      </div>
+      <div class="column" id="done">
+        <h2>Done</h2>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
